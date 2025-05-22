@@ -42,4 +42,11 @@ Technologies used in the project:
 *   Express
 *   JWT
 
-https://documenter.getpostman.com/view/36796105/2sB2qah1fC
+## 📘 API Documentation
+
+This project uses a RESTful API. You can access the complete API documentation via Postman:
+
+👉 [Click here to view Postman Docs](https://documenter.getpostman.com/view/36796105/2sB2qah1fC)
+
+[![View in Postman](https://img.shields.io/badge/Postman-View%20Docs-orange?logo=postman)](https://documenter.getpostman.com/view/36796105/2sB2qah1fC)
+
