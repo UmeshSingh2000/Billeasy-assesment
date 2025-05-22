@@ -54,6 +54,13 @@ User Collection
 
 
 Book Collection
+| Field       | Type   | Required | Description                   |
+| ----------- | ------ | -------- | ----------------------------- |
+| `title`     | String | ✅        | Unique title of the book      |
+| `author`    | String | ✅        | Author of the book            |
+| `genre`     | String | ✅        | Genre or category of the book |
+| `createdAt` | Date   | Auto     | Timestamp when created        |
+| `updatedAt` | Date   | Auto     | Timestamp when last modified  |
 
 
 
