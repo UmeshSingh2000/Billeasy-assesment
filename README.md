@@ -41,3 +41,5 @@ Technologies used in the project:
 *   MongoDB
 *   Express
 *   JWT
+
+https://documenter.getpostman.com/view/36796105/2sB2qah1fC
