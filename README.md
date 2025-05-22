@@ -44,14 +44,17 @@ Technologies used in the project:
 
 ## 📘 Database Schema
 User Collection
-| Field       | Type     | Description           |
-| ----------- | -------- | --------------------- |
-| `_id`       | ObjectId | Unique user ID (auto) |
-| `username`  | String   | Unique username       |
-| `email`     | String   | Unique email address  |
-| `password`  | String   | Hashed user password  |
-| `createdAt` | Date     | Timestamp (auto)      |
-| `updatedAt` | Date     | Timestamp (auto)      |
+| Field       | Type   | Required | Description                           |
+| ----------- | ------ | -------- | ------------------------------------- |
+| `name`      | String | ✅        | Full name of the user                |
+| `email`     | String | ✅        | Unique email with regex validation   |
+| `password`  | String | ✅        | Hashed password                      |
+| `createdAt` | Date   | Auto     | Automatically set timestamp           |
+| `updatedAt` | Date   | Auto     | Automatically updated on modification |
+
+
+Book Collection
+
 
 
 ## 📘 API Documentation
