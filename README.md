@@ -21,7 +21,7 @@ npm install
 <p>3. Environment Variables</p>
 
 ```
-PORT=5000 MONGO_URI=your_mongodb_connection_string JWT_SECRET=your_jwt_secret_key
+PORT=5000 MONGO_URI=your_mongodb_connection_string JWT_SECRET=your_jwt_secret_key NODE_ENV = development
 ```
 
 <p>4. Run the Server</p>
