@@ -42,6 +42,18 @@ Technologies used in the project:
 *   Express
 *   JWT
 
+## 📘 Database Schema
+User Collection
+| Field       | Type     | Description           |
+| ----------- | -------- | --------------------- |
+| `_id`       | ObjectId | Unique user ID (auto) |
+| `username`  | String   | Unique username       |
+| `email`     | String   | Unique email address  |
+| `password`  | String   | Hashed user password  |
+| `createdAt` | Date     | Timestamp (auto)      |
+| `updatedAt` | Date     | Timestamp (auto)      |
+
+
 ## 📘 API Documentation
 
 This project uses a RESTful API. You can access the complete API documentation via Postman:
